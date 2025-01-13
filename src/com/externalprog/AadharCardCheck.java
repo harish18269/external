@@ -18,6 +18,7 @@ public class AadharCardCheck {
 		
 	}
 
+	// This method checks whether the given string is an valid aadhar card or not
 	public static boolean validAadharCheck(String str) {
 		char[] ch = str.toCharArray();
 		if(ch.length >12) {
